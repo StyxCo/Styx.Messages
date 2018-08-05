@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ua.co.styx</groupId>
+    <groupId>ua.co.styx.messages</groupId>
     <artifactId>messages</artifactId>
     <version>1.0</version>
 
@@ -31,7 +31,9 @@
     </distributionManagement>
 
     <scm>
-        <url>https://svn.apache.org/viewvc/maven</url>
+        <connection>scm:git:git://github.com/StyxCo/Styx.Messages.git</connection>
+        <developerConnection>scm:git:ssh://github.com:StyxCo/Styx.Messages.git</developerConnection>
+        <url>http://github.com/StyxCo/Styx.Messages/tree/master</url>
     </scm>
 
     <developers>

@@ -14,7 +14,7 @@ public class ContractStatusResponse {
     private String requestExecTime;
     @SerializedName("SearchResult")
     @Expose
-    private List<CPVZContract> searchResult = null;
+    private List<CPVZContract> contracts = null;
 
     public String getRequestUID() {
         return requestUID;
@@ -33,11 +33,11 @@ public class ContractStatusResponse {
     }
 
     public List<CPVZContract> getSearchResult() {
-        return searchResult;
+        return contracts;
     }
 
     public void setSearchResult(List<CPVZContract> searchResult) {
-        this.searchResult = searchResult;
+        this.contracts = searchResult;
     }
 
 }
