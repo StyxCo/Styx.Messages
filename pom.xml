@@ -6,10 +6,11 @@
 
     <groupId>com.github.styxco</groupId>
     <artifactId>messages</artifactId>
-    <version>1.0</version>
+    <version>1.0.0</version>
 
     <packaging>jar</packaging>
     <name>Library for messaging</name>
+    <description>STYX Library for messaging</description>
     <url>https://github.com/StyxCo/Styx.Messages</url>
 
     <licenses>
@@ -42,6 +43,10 @@
             <email>oleg.dubetsky@gmail.com</email>
             <organization>StyxCo</organization>
             <organizationUrl>http://styx.co.ua</organizationUrl>
+            <roles>
+                <role>Project-Administrator</role>
+                <role>Developer</role>
+            </roles>
         </developer>
     </developers>
 
